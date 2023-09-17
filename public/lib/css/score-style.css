@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  background-color: green;
+}
+
+
+.container {
+  display: block;
+  flex-direction: column;
+  text-align: center;
+}
+
+.item-1{
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 570px;
+  background-position: center; 
+  background-size: cover;
+  background-image: url('../img/placar1.png');
+  margin-bottom: 20px;
+  
+}
+
+.item-2{
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 570px;
+  background-position: center; 
+  background-size: cover;
+  background-image: url('../img/placar2.png');
+}
+
+.player{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 150px;
+  height: 40px;
+  width: 275px;
+  font-family: "Roboto", sans-serif;
+  color: #142c59;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.score{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 183px;
+  height: 40px;
+  width: 45px;
+  font-family: "Roboto", sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.set{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 200px;
+  height: 40px;
+  width: 45px;
+  font-family: "Roboto", sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 2em;
+}
+
+
+
+
+
